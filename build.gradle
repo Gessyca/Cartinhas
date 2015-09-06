@@ -1,0 +1,19 @@
+apply plugin: 'java'
+apply plugin: 'eclipse-wtp'
+apply plugin: 'war'
+apply plugin: 'groovy'
+
+version = '1.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile group: 'commons-collections', name: 'commons-collections', version: '3.2'
+   	compile 'org.primefaces:primefaces:5.1'
+	compile 'javax:javaee-api:7.0'
+	compile 'org.hibernate.javax.persistence:hibernate-jpa-2.0-api:1.0.1.Final'
+	compile 'mysql:mysql-connector-java:5.1.30'
+}
+
