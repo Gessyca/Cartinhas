@@ -1,0 +1,12 @@
+
+/java/target/
+/target/
+.classpath
+.settings/
+.project
+*.class
+*.jar
+*~
+~*
+*.war
+*.ear
